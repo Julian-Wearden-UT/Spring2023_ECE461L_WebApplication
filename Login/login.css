@@ -1,0 +1,52 @@
+.login_direction {
+  font-size: medium;
+  text-align: center;
+  justify-content: left;
+}
+
+.login_form {
+  background-color: white;
+  text-align: center;
+  width: 30%;
+}
+
+.login_table {
+  align-content: center;
+  text-align: center;
+}
+
+/*.title{*/
+/*    font-size: 15px;*/
+/*}*/
+
+/*.text{*/
+/*    display: block;*/
+/*    padding: 5px;*/
+/*    border-width: 3px;*/
+/*}*/
+
+/*td {*/
+/*    padding: 8px;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*input  {*/
+/*    display: inline-block;*/
+/*    width: auto;*/
+/*    border-radius: 5px;*/
+/*    border-width: medium;*/
+/*}*/
+
+.submit_button {
+  font-size: 21px;
+  display: inline-block;
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-align: center;
+}
+.submit_button:hover {
+  background-color: cadetblue;
+  color: white;
+}

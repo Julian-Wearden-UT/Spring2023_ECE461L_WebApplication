@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A login/registration page that validates input"
+    />
+    <meta name="author" content="Software Syndicate" />
+    <link rel="stylesheet" href="login.css" />
+    <script src="login.js"></script>
+  </head>
+
+  <body>
+    <form method="POST" id="login" class="login_form">
+      <!--Titles-->
+      <h2 class="login_direction">Existing User?</h2>
+      <h2 class="login_direction">Log in here:</h2>
+      <hr />
+
+      <!--Personal Info-->
+      <table>
+        <tr>
+          <td>
+            <label
+              ><input
+                type="text"
+                id="login_usrID"
+                name="login_usrID"
+                size="30"
+                placeholder="User ID"
+                required
+            /></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              ><input
+                class="login_form_input"
+                type="password"
+                id="login_pwd"
+                name="login_pwd"
+                size="30"
+                placeholder="Password"
+                required
+            /></label>
+          </td>
+        </tr>
+        <tr>
+          <!--Submit Button-->
+          <td>
+            <input
+              class="submit_button"
+              type="button"
+              value="Log In"
+              onclick="logIn()"
+            />
+          </td>
+        </tr>
+      </table>
+      <hr />
+    </form>
+
+    <form method="POST" id="register" class="login_form">
+      <!--Titles-->
+      <h2 class="login_direction">New User?</h2>
+      <h2 class="login_direction">Sign up here:</h2>
+      <hr />
+
+      <!--Personal Info-->
+      <table>
+        <tr>
+          <td>
+            <label
+              ><input
+                type="text"
+                id="reg_usrID"
+                name="reg_usrID"
+                size="30"
+                placeholder="User ID"
+            /></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              ><input
+                type="text"
+                id="reg_usrName"
+                name="reg_usrName"
+                size="30"
+                placeholder="User Name"
+            /></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              ><input
+                type="password"
+                id="reg_pwd"
+                name="reg_pwd"
+                size="30"
+                placeholder="Password"
+                required
+            /></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              ><input
+                type="password"
+                id="reg_confPwd"
+                name="reg_confPwd"
+                size="30"
+                placeholder="Confirm Password"
+                required
+            /></label>
+          </td>
+        </tr>
+        <tr>
+          <!--Submit Button-->
+          <td>
+            <input
+              class="submit_button"
+              type="button"
+              value="Register"
+              onclick="validateRegistration()"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
