@@ -1,4 +1,4 @@
-# ECE461L Software Engineering and Design Lab Web-App
+# ECE461L Software Engineering and Design Lab Web Application
 #### Team Name: Software Syndicate
 #### Fully Deployed Web Application: https://softwaresyndicate.herokuapp.com/
 
